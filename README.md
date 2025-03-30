@@ -1,4 +1,4 @@
-# EFI-RYZEN-B550-RX6600
+# EFI-RYZEN-B550-RX6700XT
 
 :information_source: **The current version is fully macOS Monterey to macOS Sequoia compatible.**
 OpenCore, drivers, and kexts are always up to date! (as soon as possible)
@@ -20,13 +20,11 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 
 | **Category** | **Component**                                                                    |
 | ------------ | -------------------------------------------------------------------------------- |
-| **CPU**      | 3,5 GHz AMD Ryzen 5 5600 6-Core Processor                                        |
-| **GPU**      | ASROCK Challenger - AMD Radeon RX 6600 8 GB Challenger 8GB                       |
-| **RAM**      | 16GB GLOWAY DDR4 3200MHZ (XMP)                                                   |
+| **CPU**      | AMD Ryzen 5 5700x 8-Core Processor	                                          |
+| **GPU**      | AMD Radeon RX 6700XT 12 GB Challenger                        |
+| **RAM**      | 32GB GLOWAY DDR4 3200MHZ (XMP)                                                   |
 | **CHIPSET**  | B550M DS3H [Gigabyte](https://www.gigabyte.com/Motherboard/B550M-DS3H-rev-1x#kf) |
-| **SSD**      | 120GB ADATA SATA                                                                 |
-| **Wi-Fi/BT** | Fenvi FV-HB1200                                                                  |
-| **Ethernet** | Realtek RTL8111                                                                  |
+| **SSD**      | 1TB Western Digital                                                              |
 | **Audio**    | Realtek ALC897 (layout-id=12)                                                    |
 
 ## :white_check_mark: Working:
@@ -41,17 +39,9 @@ This repository contains ONLY my complete EFI configuration based on personal ex
 - [x] Ethernet.
 - [x] Audio (Internal speakers, 3.5mm headphone jack).
 - [x] Internal microphone.
-- [x] VGA WebCam.
-- [x] AirDrop & Handoff.
 - [x] iCloud & App Store.
-- [x] iMessage & FaceTime.
 
-## :x: Not working:
 
-~~Wi-fi, Bluetooth and AirDrop are not working since i don't have yet a native Wi-fi card and my motherboard doesn't have one.
-Currently using with wired network on my ethernet port~~
-
-All features are working, just added a Fenvi FV-HB1200 board. Now we have Wi-Fi, Bluetooth (usb mapped), AirDrop and others.
 
 ## :closed_lock_with_key: SMBIOS
 
